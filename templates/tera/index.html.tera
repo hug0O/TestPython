@@ -9,5 +9,5 @@
         {% endfor %}
     </ul>
 
-    <p>Try going to <a href="/tera/hello/Your%20Name">/tera/hello/Your Name</a></p>
+    <p>Try going to <a href="/tera/hello/{{ name }}">/tera/hello/{{ name }}</a></p>
 {% endblock content %}
